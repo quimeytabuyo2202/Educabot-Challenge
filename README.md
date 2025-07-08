@@ -11,5 +11,5 @@
 
 6- Actualizar dependencias de Maven en Eclipse para que las tome del pom.xml del proyecto
 
-7- Desde el IDE se pueden ejecutar casos haciendo click derecho en los archivos XML de cada suite. Ejemplo: "/QAAutomationProyect/src/test/resources/suites/SmokeTest.xml".
+7- Desde el IDE se pueden ejecutar casos haciendo click derecho en los archivos XML de cada suite. Ejemplo: "/QAAutomationProyect/src/test/resources/suites/RegresionTest.xml".
 
