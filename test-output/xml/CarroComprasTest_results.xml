@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="comprarUnItem_03"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0,927">
+  <properties />
+  
+  
+            <testcase name="comprarUnItem_03" time="0,927" classname="CarroComprasTest" />
+      
+</testsuite>

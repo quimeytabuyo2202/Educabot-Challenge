@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ServiceWebTestSuite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="obtenerTodasLasRazasDePerro_05">
+		<classes>
+			<class name="ApiTest">
+				<methods>
+					<include name="obtenerTodasLasRazasDePerro_05" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="verificarDepartamentosMercadoLibre_04">
+		<classes>
+			<class name="ApiTest">
+				<methods>
+					<include name="verificarDepartamentosMercadoLibre_04" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

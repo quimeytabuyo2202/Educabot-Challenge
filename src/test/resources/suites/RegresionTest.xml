@@ -1,0 +1,60 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTestSuite" parallel="false" thread-count="1">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="loginValido_01" preserve-order="true">
+        <classes>
+            <class name="LoginTest">
+                <methods>
+                    <include name="loginValido_01" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="loginFallido_02" preserve-order="true">
+    <parameter name="username" value="standar_user"/>
+    <parameter name="password" value="false_sauce" />
+        <classes>
+            <class name="LoginTest">
+                <methods>
+                    <include name="loginFallido_02" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="comprarUnItem_03" preserve-order="true">
+        <parameter name="cantidadItems" value="1"/>
+        <parameter name="firstName" value="Quimey"/>
+        <parameter name="lastName" value="Tabuyo"/>
+        <parameter name="postalCode" value="1439"/>
+        <classes>
+            <class name="CarroComprasTest">
+                <methods>
+                    <include name="comprarUnItem_03" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="obtenerTodasLasRazasDePerro_05">
+        <classes>
+            <class name="ApiTest">
+                <methods>
+                    <include name="obtenerTodasLasRazasDePerro_05" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="verificarDepartamentosMercadoLibre_04">
+        <classes>
+            <class name="ApiTest">
+                <methods>
+                    <include name="verificarDepartamentosMercadoLibre_04" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
