@@ -7,7 +7,7 @@
 
 4- Agregar a variable "path" directorio "bin" donde se instalo Java
 
-5- Clonar proyecto "git clone https://github.com/quimeytabuyo2202/QAAutomationProyect.git"
+5- Clonar proyecto "git clone https://github.com/quimeytabuyo2202/Educabot-Challenge.git"
 
 6- Actualizar dependencias de Maven en Eclipse para que las tome del pom.xml del proyecto
 
